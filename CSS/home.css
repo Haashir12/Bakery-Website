@@ -1,0 +1,173 @@
+body{
+    font-family: "El Messiri", sans-serif;
+    font-size: 14pt;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #2b1a1a;
+}
+ #header-content{
+     background-color: #5c3636;
+     border-width: 3pt;
+     color:white;
+     height: 20%;
+     text-align: center;
+    padding-bottom: 5%;
+ }
+
+
+#header-content a {
+    text-decoration: none;
+    color: black; 
+}
+
+ #main-content{
+     background-color: white;
+     border-width: 3pt;
+     color:black;
+     padding-top: 2%;
+ }
+
+ .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .label {
+    width: 100%;
+    background-color: #eddbdb;
+    color: black;
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem;
+}
+  
+img {
+    object-fit: contain;
+}
+
+ .gothic {
+    font-family: "Dela Gothic One", sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+  }
+  
+ #footer-content{
+     background-color: pink;
+     border-width: 3pt;
+     color:black;
+     height: 10%;
+ }
+ 
+ #mylogo{
+     width:50;
+     height: 50;
+ }
+ /*
+ span{
+     background-color: pink;
+     color:black;
+     padding:  18pt;
+ }
+ */ 
+ 
+ span:hover{
+    text-decoration: underline;
+ }
+ 
+
+ #footer-content{
+    background-color: pink;
+    border-width: 3pt;
+    color:black;
+    height: 10%;
+}
+
+
+#mylogo{
+    width:50;
+    height: 50;
+}
+
+#footer-content {
+   background-color: #5c3636;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   font-size: 14pt;
+   margin-right: 15px;
+}
+
+#footer-content h3 {
+   margin-bottom: 10px;
+}
+
+#footer-content p {
+   margin-right: 20px; 
+   padding-bottom: 20px;
+}
+
+#footer-content a {
+   color: white;
+   text-decoration: none;
+}
+
+#footer-content a:hover {
+   text-decoration: underline;
+}
+
+#footer-content form {
+   display: flex;
+   flex-direction: column;
+}
+
+#footer-content input[type="email"] {
+   margin-bottom: 5px;
+   padding: 5px;
+   border-radius: 5px;
+   border: none;
+}
+
+#footer-content input[type="submit"] {
+   background-color: #eddbdb;
+   color: black;
+   padding: 10px 20px;
+   font-size: 1rem;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+#footer-content input[type="submit"]:hover {
+   background-color: #d6c3c3;
+}
+
+footer {
+   background-color: #5c3636;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   font-size: 12pt;
+}

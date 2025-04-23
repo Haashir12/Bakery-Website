@@ -1,0 +1,153 @@
+/* .bottom-bar  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 75%;
+    background-color: #EDDBDB;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  */
+
+
+  .options-bar {
+    top: 0;
+    left: 18px;
+    width: 100px;
+    height: 400px;
+    background-color: #5C3635;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    transform:translate(10%,20%); 
+
+  }
+  
+
+  .options-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-bottom: 17px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .options-bar a:hover {
+    color: #ccc;
+    border-bottom: none;
+  }
+
+  .settings-option {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+
+  }
+
+  .personal-details {
+    margin: 50px 0;
+    padding: 30px;
+    margin-bottom: 42px;
+    padding-left: 20%;
+    margin-top: 30px;
+    padding-top: 10px;
+    transform:translate(0%,-140%); 
+  }
+
+
+  .personal-details h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 42px;
+    text-align: left;
+    transform:translate(30%,-1100%); 
+
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .form-group input[type="number"],
+  .form-group input[type="text"],
+  .form-group input[type="email"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  input[type=date] {
+          margin-bottom: 10px;
+      }
+
+  button[type="submit"] {
+    background-color: #5C3635;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .form-table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 55%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    margin-bottom: 30%;
+    background-color: #EDDBDB;
+    border-radius: 10px;
+  }
+
+  .form-table th,
+  .form-table td {
+    border: 2px solid #ccc;
+    padding: 8px;
+  }
+  .account-logo {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width: 100px; /* Adjust width as needed */
+    padding-left: 70%;
+    transform:translate(0%,90%);
+
+  }
+  .welcome{
+      font-size: 30px; 
+      font-weight: bold; 
+      transform:translate(0%,-900%);
+
+  }

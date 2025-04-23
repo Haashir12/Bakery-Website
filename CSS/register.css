@@ -1,0 +1,60 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("././imgs/Bakery_Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*/ 
+
+h2 {
+    color: #5c3636;
+    text-align: center;
+}
+
+.form-container {
+    background-color: #f9d0d6;
+    color: #5c3636;
+    padding: 40px;
+    border-radius: 15px;
+    width:400px;
+    transform:translate(95%,0%); 
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5c3636;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5c3636;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #734e4e;
+}
+
+.error {
+    color: #FF0000;
+}

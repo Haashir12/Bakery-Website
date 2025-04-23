@@ -1,0 +1,131 @@
+.normal-text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.normal-text-link{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    text-decoration: none;
+}
+
+.normal-text-link:hover{
+    text-decoration: underline;
+}
+
+.normal-image{
+    height:302px;
+    width:312.06px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.normal-image:hover{
+    border: 1px solid whitesmoke;
+}
+
+.normal-icon {
+    height:70px;
+    width:70px; 
+    margin-right: 20px;
+    transform: translate(350%, -120%); 
+}
+
+.normal-list{
+    background-size: contain;
+    list-style-type: none;
+    display: inline-block;
+    padding: auto;
+    color: black;
+
+}
+
+.ansearch {
+    width: 40%;
+    height: 20px;
+    border: 1px solid black; /* Update border to 2px solid black */
+    border-radius: 5px;
+    padding: 5px; /* Add padding to give some space between text and border */
+    font-size: 16px; /* Change font size */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    transform: translate(60%, 20%); 
+}
+
+.ansearch::placeholder { /* Style the placeholder text */
+    color: gray;
+}
+
+.ansearch:focus {
+    outline: none; /* Remove outline on focus */
+    border-color: blue; /* Change border color on focus */
+}
+
+.ansearch-bar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Align items horizontally */
+}
+
+.submit{
+    transform: translate(570%, 30%); 
+    font-size: 16px;
+}
+
+.advance-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color:black;
+    margin-top: 5px;
+
+}
+
+.advance-image{
+    height:20px;
+    width:20px;
+}
+
+.simpletext{
+    color:grey;
+    margin-left: 350px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#toggleAS:target {
+    display: block;
+    display: inline-block;
+  }
+
+#toggleCS:target {
+    display:none
+  }
+
+  .product_details{
+    background-size: contain;
+    list-style-type: none;
+    display: inline-block;
+    padding: auto;
+    color: black;
+}
+
+
+
+.product_text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.product_image{
+    height:302px;
+    width:312.06px;
+    border-radius: 20px;
+    overflow: hidden;
+}

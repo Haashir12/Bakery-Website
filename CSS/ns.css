@@ -1,0 +1,171 @@
+body, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: #5c3636;
+    margin-top: 0px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-title {
+    margin-left: 15px;
+    color: white;
+    font-size: 24px;
+    font-family: 'century gothic';
+    color: #EDDBDB;
+    text-shadow: 0 0 5px #FFB6C1,
+        0 0 10px #FFB6C1,
+        0 0 20px #FFB6C1,
+        0 0 30px #FFB6C1,
+        0 0 40px #FFB6C1,
+        0 0 55px #FFB6C1,
+        0 0 70px #FFB6C1;
+}
+
+.header-title.hover {
+    color: rgb(98, 97, 97);
+    transition: color 0.6s;
+
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav_list li a{
+    text-decoration: none;
+    color: #EDDBDB;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: text-shadow 0.6s;
+    
+}
+
+.nav_list li a:hover{
+    border-color: #EDDBDB;
+    border-radius: 25px;
+    text-shadow: 0 0 5px #FFB6C1,
+        0 0 5px #FFB6C1,
+        0 0 15px #FFB6C1,
+        0 0 20px #FFB6C1,
+        0 0 30px #FFB6C1,
+        0 0 45px #FFB6C1,
+        0 0 70px #FFB6C1;
+}
+
+
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background: #EDDBDB;
+    padding: 20px;
+    
+}
+
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: #333;
+    border-left: 8px solid #333;
+    transition: text-shadow 0.6s;
+    
+}
+
+.sidebar a:hover {
+    border-color: #FFB6C1;
+    text-shadow: 0 0 5px #5c3636,
+        0 0 10px #5c3636,
+        0 0 20px #5c3636,
+        0 0 30px #5c3636,
+        0 0 40px #5c3636,
+        0 0 55px #5c3636,
+        0 0 70px #5c3636;
+}
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.neat {
+    font-size: 20px;
+    font-family: 'century gothic';
+    color: #EDDBDB;
+
+}
+
+.wel{
+    width: 130px;
+    height: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: #f1f1f1;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color:darkred; 
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #000; /* Change the hover color to black */
+}
+
+.logout{
+    width: 230px;
+    height: 90px;
+    
+}

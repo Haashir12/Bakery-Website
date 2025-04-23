@@ -1,0 +1,132 @@
+/* Your existing CSS styles */
+
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+}
+
+.navi {
+    display: inline-block;
+    vertical-align: middle; /* Align icons vertically with text */
+}
+
+.navigation {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navigation:hover {
+    text-decoration: underline;
+    border-color: #111;
+}
+
+.navicon{
+    width:10%;
+    height:10%;
+    margin-left: 30px;
+}
+
+.liborder {
+    color: black;
+    height: 7px;
+    margin: 25px 0;
+    background-color: black;
+}
+
+.search-container {
+    float: right;
+    position: relative;
+    margin-top: 200px;
+}
+
+.search-bar {
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+/* Hide the search bar container initially */
+.search-bar-container {
+    display: none;
+    margin-bottom: 10px;
+}
+
+/* Style the search icon */
+.search-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer; /* Add cursor pointer to indicate clickable */
+    background-image: url("../Icons/SearchIcon.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+/* Show the search bar when checkbox is checked */
+.search-toggle:checked + .search-icon + .search-bar-container {
+    display: block;
+    margin-right: 10px;
+}
+
+.search-bar {
+    width: 250px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.productlist {
+    list-style-type: none;
+}
+
+.productimg {
+    width: 100px; /* Decrease the size of the image */
+    display: block;
+    margin-bottom: 10px;
+}
+
+.producttext {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.cart-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+}
+
+
+.search--bar{
+width: 250px;
+height: 50px; 
+transform: translate(190%, -80%); 
+border-radius: 30px;
+font-size: 15px;
+}
+
+.iconsicon{
+    width:50px;
+    height:50px;
+    transform: translate(1300%, -200%); 
+    border-radius: 20px;
+}

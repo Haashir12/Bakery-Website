@@ -1,0 +1,11 @@
+.background{
+    background-image: url("../Images/reg.jpg");
+}
+
+.forum{
+    align-content: center;
+    background-color: black; 
+    width: 40%;
+    height:auto; 
+
+}
